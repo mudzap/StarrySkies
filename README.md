@@ -1,6 +1,7 @@
 # StarrySkies
-By: Iván Peña
-Python script to generate random crops at a set resolution from a set of bigger images. Made for observatory and telescope photos.
+By: Iván Peña, Universidad Anáhuac
+
+Simple python script to generate random crops at a set resolution from a set of bigger images. Made for observatory and telescope photos.
 By pulling random cropped images and downscaling these I can lazily make wallpapers for myself. AFAIK It doesn't handle non-integer downscaling factors because of personal preference, you're free to change that.
 
 Requires: NumPy, glob, argparse, Pillow
