@@ -1,15 +1,15 @@
+# NOTICE
+This is an old repo for a script that was only meant to be used once so I have no reason to update it.
+If I were to reimplement it, instead of reading the entire image (which are huge, btw), I would have first started with an identity matrix, on which I would make all the desired transforms (rescale, rotation, etc...) and then I would pull only the required image data and mapped it.
+
+I also recommend PyPy.
+
 # StarrySkies
-By: Iván Peña, Universidad Anáhuac
 
 Simple python script to generate random crops at a set resolution from a set of bigger images. Made for observatory and telescope photos.
 By pulling random cropped images and downscaling these I can lazily make wallpapers for myself. AFAIK It doesn't handle non-integer downscaling factors because of personal preference, you're free to change that.
 
 Requires: NumPy, glob, argparse, Pillow
-
-TODO:
-- Make several crops in a single pass, this will be done with the currently redundant argument N.
-- Fix output naming for when any exception occurs.
-- Adequate the script for proper output naming.
 
 A x64 Python install is recommended because of high memory requirements with large images.
 
