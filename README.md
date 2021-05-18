@@ -2,8 +2,6 @@
 This is an old repo for a script that was only meant to be used once so I have no reason to update it.
 If I were to reimplement it, instead of reading the entire image (which are huge, btw), I would have first started with an identity matrix, on which I would make all the desired transforms (rescale, rotation, etc...) and then I would pull only the required image data and mapped it.
 
-I also recommend PyPy.
-
 # StarrySkies
 
 Simple python script to generate random crops at a set resolution from a set of bigger images. Made for observatory and telescope photos.
